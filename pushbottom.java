@@ -1,4 +1,4 @@
-//push at the bottom of the stack
+//push at the bottom of the stack - O(n)
 
 import java.util.*;
 
