@@ -28,9 +28,11 @@ public class StackB {
     }
     public static void main(String[] args) {
         //valid string
-        String str="((a+b))"; //true
+        String str="((a+b)+(c+d))"; //false
         String str2="(a-b)"; //false
+        String str3="((a+b))"; //true
         System.out.println(isDuplicate(str));
         System.out.println(isDuplicate(str2));
+        System.out.println(isDuplicate(str3));
     }        
 }
