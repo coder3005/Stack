@@ -30,7 +30,7 @@ public class StackB {
         stockSpan(stocks,span);
 
         for(int i=0;i<span.length;i++) {
-            System.out.println(span[i]+" ");
+            System.out.print(span[i]+" ");
         }
     }
 }
