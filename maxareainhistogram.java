@@ -24,7 +24,7 @@ public class StackB {
             s.push(i);
         }
 
-            //next smaller part - O(n)
+            //next smaller left part - O(n)
         s=new Stack<>();
 
         for(int i=0;i<arr.length;i++) {
