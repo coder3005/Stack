@@ -4,10 +4,10 @@ import java.util.Stack;
 
 public class StackB {
     public static class Node {
-        int data;
+        char data;
         Node next;
 
-        public Node(int data) {
+        public Node(char data) {
             this.data = data;
             this.next = null;
         }
@@ -19,7 +19,7 @@ public class StackB {
         if (head == null || head.next == null) {
             return true;
         }
-        Stack<Integer> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();
         Node slow = head;
         Node fast = head;
         while (fast != null && fast.next != null) {
